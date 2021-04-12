@@ -64,7 +64,16 @@ public class Arreglo {
     }
     
     public static void cuentaCaracter(String palabra, char caracterBuscado){
-        int caracterRepetido=0;
+        int caracterRepetido=0, i=0;
+        char arregloChar[] = palabra.toCharArray();
         
+        do{
+            if(arregloChar[i] == caracterBuscado){
+                caracterRepetido++;
+            }
+            i++;
+        }while(i < arregloChar.length);
+        
+        System.out.println("El caracter se repitio: "+caracterRepetido);
     }
 }

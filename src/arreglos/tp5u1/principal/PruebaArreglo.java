@@ -20,9 +20,10 @@ public class PruebaArreglo {
        int numeros[] = {22,45,67,90};
        int numeros2 [][] = {{2,4}, {500,200,550}, {400,50,90}};
        String saludo = "Sky";
-//       Arreglo.sumarLista(numeros);
-//       Arreglo.buscarMayor(numeros2);
+       Arreglo.sumarLista(numeros);
+       Arreglo.buscarMayor(numeros2);
        Arreglo.cuentaVocales(saludo);
+       Arreglo.cuentaCaracter(saludo, 'k');
     }
     
 }
