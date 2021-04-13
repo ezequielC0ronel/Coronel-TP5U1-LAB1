@@ -74,6 +74,11 @@ public class Arreglo {
             i++;
         }while(i < arregloChar.length);
         
-        System.out.println("El caracter se repitio: "+caracterRepetido);
+        if(caracterRepetido == 0){
+            System.out.println("El caracter no existe en la palabra ingresada");
+        }else{
+            System.out.println("El caracter se repitio: "+caracterRepetido);
+        }
+        
     }
 }
