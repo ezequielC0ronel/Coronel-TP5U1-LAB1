@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package arreglos.tp5u1.entidades;
+package arreglostp5u1.entidades;
 
 /**
  *

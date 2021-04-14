@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package arreglos.tp5u1.principal;
-import arreglos.tp5u1.entidades.*;
+package arreglostp5u1.principal;
+import arreglostp5u1.entidades.Arreglo;
 /**
  *
  * @author Ezequiel Coronel
