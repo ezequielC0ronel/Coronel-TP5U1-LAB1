@@ -13,6 +13,7 @@ public class Arreglo {
     
     public static void sumarLista(int a[]){
         int suma= 0, contador = 0;
+        double promedio = 0;
         for(int i = 0; i<a.length;i++){
             suma+= a[i];
             contador++;
@@ -21,7 +22,8 @@ public class Arreglo {
         System.out.println("La suma de los valores del array es: "+suma);
         
         //Mostrar promedio
-        System.out.println("El promedio de los valores del array es: "+suma/contador);
+        promedio = suma/contador;
+        System.out.println("El promedio de los valores del array es: "+ promedio);
     }
     
     public static void buscarMayor(int a[][]){
